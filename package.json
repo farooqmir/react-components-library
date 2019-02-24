@@ -1,0 +1,29 @@
+{
+  "name": "react-components-library",
+  "version": "1.0.0",
+  "description": "Create and publish react components. Create you own components library and distribute.",
+  "main": "build/index.js",
+  "repository": " ",
+  "scripts": {
+    "start": "webpack --env publish --mode production --watch --config ./build-config/webpack.config.js",
+    "build": "webpack --env publish --mode production --config ./build-config/webpack.config.js",
+    "dev": "webpack-dev-server --open --env dev --mode development --config ./build-config/webpack.config.js"
+  },
+  "author": "Farooq Mir",
+  "license": "",
+  "peerDependencies": {
+    "react": "^16.7.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
