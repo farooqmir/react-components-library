@@ -1,11 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Heading } from "../src";
+import Article, { Footer } from "../src"; //ddfsdfsdfdfdf  sd
 
-const App = () => {
+const App = props => {
   return (
     <div>
-      <Heading />
+      <Article />
+      <Footer />
+
       <p>This is a sample article.</p>
     </div>
   );
