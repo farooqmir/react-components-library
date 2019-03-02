@@ -1,4 +1,15 @@
 {
-  "presets": ["@babel/preset-env", "@babel/preset-react"],
-  "plugins": []
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": [">1%", "ie 11", "last 2 edge version", "not op_mini all"]
+        },
+        "debug": true
+      }
+    ],
+    "react"
+  ],
+  "plugins": ["transform-object-rest-spread", "transform-class-properties"]
 }

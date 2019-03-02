@@ -22,7 +22,8 @@ module.exports = {
     ]
   },
   externals: {
-    react: "commonjs react" // this line is just to use the React dependency of our parent-testing-project instead of using our own React.
+    react: "commonjs react"
+    // use the React dependency of our parent project instead of using our own React.
   },
   devServer: {
     contentBase: path.join(__dirname, "../build"),
