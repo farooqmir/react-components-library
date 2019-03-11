@@ -1,5 +1,13 @@
 import React from "react";
-const Heading = props => {
-  <h1>This is a sample shared component.</h1>;
-};
-export { Heading };
+/* sample imports */
+import Header from "./components/Header";
+import FHeader from "./components/FHeader";
+import Footer from "./components/Footer";
+import FFooter from "./components/FFooter";
+import Article from "./components/Article";
+
+/* For Demo purpose */
+export { Article };
+export { Header, Footer };
+export { FFooter };
+export { FHeader };
